@@ -2,59 +2,59 @@
 reset
  */
 
- *{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
- }
+}
 
- *{
+* {
     font-family: 'Open Sans', sans-serif;
- }
+}
 
 /* 
 general
  */
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
- .container-header-bottom{
+.container-header-bottom {
     max-width: 1200px;
     margin: 0 auto;
-    
-    
- }
 
- .container-main {
+
+}
+
+.container-main {
     max-width: 600px;
     margin: 0 auto;
- }
+}
 
- .main-container-prova-gratuita{
+.main-container-prova-gratuita {
     max-width: 600px;
     margin: 0 auto;
- }
+}
 
- .main-container-domande {
+.main-container-domande {
     max-width: 600px;
     margin: 0 auto;
- }
+}
 
 /* 
 header
  */
-    
-.header-top-container{
+
+.header-top-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-} 
+}
 
-img{
+img {
     padding: 10px;
 }
 
@@ -64,27 +64,27 @@ ul {
     margin: 0 10px;
     align-items: center;
 
-    
+
 }
 
 li {
-    padding: 0 10px 0 10px;      
+    padding: 0 10px 0 10px;
 }
 
 a {
- 
+
     color: black;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 button {
     background-color: #2196F3;
     padding: 0 10px;
     color: white;
-    
+
 }
 
-  
+
 
 
 
@@ -94,16 +94,16 @@ header bottom
 */
 
 
-.header-bottom{
-    background-color:#B4D0E7 ;
+.header-bottom {
+    background-color: #B4D0E7;
     display: flex;
     align-items: center;
-    height: 500px; 
+    height: 500px;
 }
 
-h1{
-   background-color: lightcoral;
-   height: 50px;
+h1 {
+    background-color: lightcoral;
+    height: 50px;
 }
 
 .img-header-bottom {
@@ -118,21 +118,21 @@ h1{
     margin-left: 100px;
 }
 
-.left i{
+.left i {
     display: block;
     margin-top: 30px;
 }
 
-.text-1{
+.text-1 {
     margin-bottom: 30px;
 }
 
-.text-2{
+.text-2 {
     margin-top: 30px;
 }
 
-.img-header-bottom img{
-   width: 100%;
+.img-header-bottom img {
+    width: 100%;
 }
 
 /* 
@@ -140,56 +140,58 @@ main top
 */
 
 
-.column-main-top {
+.column-main-top {}
 
-}
-
-.title-main-top{
+.title-main-top {
     text-align: left;
     margin-top: 30px;
-   
 }
 
-.radio-main-top{   
+.radio-main-top {
     margin: 30px 0;
 }
 
-#radio{
+#radio {
     margin-left: 30px;
 }
 
 .container-column {
     display: flex;
-  }
-  
-  .column {
+    margin-right: -10px;
+}
+
+.column {
     flex-basis: 33.33%;
-    background-color: #f2f2f2;
     padding: 0 20px;
     margin-right: 10px;
     font-size: 7pt;
     border: 1px solid gray;
-  }
+}
 
-  
-
-  .column h2, p{
+.column h2 {
     margin: 15px;
-  }
+}
 
-  .button-main-top {
-    background-color: #2196F3;
-    padding:5px 10px;
-    color: white;
-    font-size: unset;  
+.column p {
+    margin: 15px;
 }
 
 
-.acquista-ora{
+.button-main-top {
+    text-align: center;
+    width: 100%;
+    background-color: #2196F3;
+    padding: 5px 10px;
+    color: white;
+    font-size: unset;
+}
+
+
+.acquista-ora {
     color: #2196F3;
 }
 
-.fa-check{
+.fa-check {
     color: #2196F3;
 }
 
@@ -199,42 +201,71 @@ main top
 
 .title-horizontal-column {
     margin-top: 30px;
-    height: 20px;
-    background-color: gray;
-    border: 2px dashed red;
+    text-align: center;
+    font-size: 7pt;
+    border: 1px solid black;
 }
 
 .container-horizontal-column {
     display: flex;
     flex-wrap: nowrap;
     height: 80px;
-    background-color: yellow;
-} 
+    
+    
+}
 
 .enterprise {
+    position: relative;
+    margin-top: 30px;   
+    padding: 15px;
     height: 150px;
-    width: 75%;
-    background-color: blueviolet;
-    border: 2px dashed red;
+    width: 100%;
+    border: 1px solid gray;
 }
 
-.button-horizontal-column {
+.enterprise h3{
+    padding: 0 15px;
+}
+
+.enterprise p{
+    font-size: 7pt;
+    padding:15px 15px 0 15px;
+}
+.enterprise span{
+    display: block;
+    font-size: 7pt;
+    text-align: center;
+}
+
+.button-enterprise{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    text-align: center;
+    background-color: #2196F3;
+    padding: 5px 10px;
+    color: white;
+    font-size: 7px;
+}
+
+/* .button-horizontal-column {
+    margin-top: 30px;
     height: 150px;
     width: 25%;
-    background-color: lightcoral;
-    border: 2px dashed red;
+    
+    border: 1px solid gray;
 
-}
+} */
 
 /* 
 main center
 */
 
-.main-center-1{
+.main-center-1 {
     background-color: pink;
     display: flex;
     margin-top: 100px;
-   
+
 }
 
 .img-main-center-1 {
@@ -256,11 +287,11 @@ main center 2
 */
 
 .main-center-2 {
-    
+
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
-    
+
 }
 
 .title-main-center-2 {
@@ -271,14 +302,14 @@ main center 2
     margin-bottom: 30px;
 }
 
-.card-1{
+.card-1 {
     height: 300px;
     background-color: lightgreen;
     width: calc((100% / 3) - 15px);
     border: 1px dashed red;
 }
 
-.card-2{
+.card-2 {
     height: 300px;
     background-color: lightgreen;
     width: calc((100% / 3) - 30px);
@@ -286,30 +317,30 @@ main center 2
     margin: 0 30px 30px 30px;
 }
 
-.card-3{
+.card-3 {
     height: 300px;
     background-color: lightgreen;
     width: calc((100% / 3) - 15px);
     border: 1px dashed red;
 }
 
-.card-4{
+.card-4 {
     height: 300px;
     background-color: lightgreen;
     width: calc((100% / 3) - 15px);
     border: 1px dashed red;
 }
 
-.card-5{
+.card-5 {
     height: 300px;
     background-color: lightgreen;
     width: calc((100% / 3) - 30px);
     border: 1px dashed red;
     margin: 0 30px 0 30px;
-    
+
 }
 
-.card-6{
+.card-6 {
     height: 300px;
     background-color: lightgreen;
     width: calc((100% / 3) - 15px);
@@ -340,33 +371,36 @@ main box img
     background-color: lightsalmon;
     /* border: 2px dashed red; */
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
 }
 
 
-.box-1{
+.box-1 {
     width: 200px;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
-  
-} 
+
+}
 
 .img-1 {
     width: calc(50%);
     height: calc(50%);
     border: 1px dashed red;
 }
+
 .img-2 {
     width: calc(50%);
     height: calc(50%);
     border: 1px dashed red;
 }
+
 .img-3 {
     width: calc(50%);
     height: calc(50%);
     border: 1px dashed red;
 }
+
 .img-4 {
     width: calc(50%);
     height: calc(50%);
@@ -378,8 +412,8 @@ main box img
     background-color: lightsalmon;
     /* border: 2px dashed red; */
     display: flex;
-    flex-wrap: wrap;  
-    
+    flex-wrap: wrap;
+
 }
 
 
@@ -395,7 +429,7 @@ main box img
     background-color: lightsalmon;
     /* border: 2px dashed red; */
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
 }
 
 
@@ -411,16 +445,19 @@ main box img
     height: calc(50%);
     border: 1px dashed red;
 }
+
 .img-6 {
     width: calc(50%);
     height: calc(50%);
     border: 1px dashed red;
 }
+
 .img-7 {
     width: calc(50%);
     height: calc(50%);
     border: 1px dashed red;
 }
+
 .img-8 {
     width: calc(50%);
     height: calc(50%);
@@ -437,26 +474,26 @@ prova gratuita
     background-color: blue;
     padding: 50px;
     height: 200px;
-           
+
 }
- 
-.prova-gratuita{
+
+.prova-gratuita {
     background-color: aquamarine;
     height: 100px;
     border: 2px dashed red;
-    
+
 }
 
 .container-domande {
     background-color: lightcoral;
     padding: 50px;
     height: 400px;
-           
+
 }
 
-.domande{
+.domande {
     background-color: lightseagreen;
     height: 300px;
     border: 2px dashed red;
-    
+
 }
