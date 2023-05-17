@@ -79,8 +79,9 @@ a {
 
 button {
     background-color: #2196F3;
-    padding: 0 10px;
+    padding: 5px 10px;
     color: white;
+    font-size: 8pt;
 
 }
 
@@ -183,7 +184,7 @@ main top
     background-color: #2196F3;
     padding: 5px 10px;
     color: white;
-    font-size: unset;
+    font-size: 8pt;
 }
 
 
@@ -245,42 +246,60 @@ main top
     background-color: #2196F3;
     padding: 5px 10px;
     color: white;
-    font-size: 7px;
+    font-size: 8pt;
 }
 
-/* .button-horizontal-column {
-    margin-top: 30px;
-    height: 150px;
-    width: 25%;
-    
-    border: 1px solid gray;
-
-} */
 
 /* 
 main center
 */
 
 .main-center-1 {
-    background-color: pink;
+ 
     display: flex;
     margin-top: 100px;
 
 }
+.img-partner{
+    height: 100%;
+    padding: 0;
+}
+
+
 
 .img-main-center-1 {
+    
     height: 300px;
     width: 60%;
-    background-color: lightseagreen;
-    border: 2px dashed red;
+    
 }
 
 .text-main-center-1 {
     height: 300px;
     width: 40%;
-    background-color: lightseagreen;
-    border: 2px dashed red;
+
 }
+
+.text h3{
+    padding: 30px 0 0 15px;
+}
+
+.text p{
+    font-size: 7pt;
+    padding:15px 15px 0 15px;
+}
+
+.button-main-center{
+   
+    text-align: center;
+    border: 1px solid black;
+    background-color: transparent;
+    margin: 15px;
+    padding: 5px 10px;
+    color: black;
+    font-size: 8pt;
+}
+
 
 /* 
 main center 2 
