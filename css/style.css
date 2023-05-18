@@ -12,15 +12,7 @@ reset
     font-family: 'Open Sans', sans-serif;
 }
 
-.fixed-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: white;
-    width: 100vw;
-   
-  }
-  
+
 
 /* 
 general
@@ -34,11 +26,13 @@ general
 .container-header-bottom {
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: -100px;
 }
 
 .container-main {
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .container-main-center-2 {
@@ -72,9 +66,15 @@ header
  */
 
 .header-top-container {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    /* position: sticky;
+    top: 0;
+    z-index: (1); */
+
 
 }
 
@@ -87,6 +87,8 @@ ul {
     list-style: none;
     margin: 0 10px;
     align-items: center;
+    font-size: 7pt;
+
 
 
 }
@@ -99,6 +101,7 @@ a {
 
     color: black;
     text-decoration: none;
+    padding: 0 10px;
 }
 
 button {
@@ -106,6 +109,7 @@ button {
     padding: 5px 10px;
     color: white;
     font-size: 8pt;
+    border: none;
 
 }
 
@@ -119,47 +123,70 @@ header bottom
 */
 
 
-.header-bottom {
-    background-color: #B4D0E7;
+
+.container-header-bottom h1 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin: 30px;
+    
+}
+
+.info {
     display: flex;
-    align-items: center;
-    height: 500px;
-}
+    background-color: #B4D0E7;
+    
+    
 
-h1 {
-    background-color: lightcoral;
-    height: 50px;
-}
 
-.img-header-bottom {
+}
+.small-info{
+    width: 30%;
     height: 300px;
+    margin: 50px 0 50px 50px;
+    position: relative;
+    top: 115px;
+    left: 50px;
+}
+
+.small-info, p {
+    font-size: 8pt;
+    margin-bottom: 10px;
+}
+
+.small-info span{
+    font-size: 20pt;
+}
+
+.big-info {
     width: 60%;
-    margin-right: 100px;
-}
-
-.text-header-bottom {
     height: 300px;
-    width: 40%;
-    margin-left: 100px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    
+    
 }
 
-.left i {
-    display: block;
-    margin-top: 30px;
+.img-jumbo {
+    width: 80%;
+}
+.button-header-bottom {
+    background-color: #2196F3;
+    padding: 5px 10px;
+    color: white;
+    font-size: 8pt;
+    border: none;
+    margin-bottom: 10px;
 }
 
-.text-1 {
-    margin-bottom: 30px;
+.small-info {
+    
 }
 
-.text-2 {
-    margin-top: 30px;
+.big-info{
+    
 }
-
-.img-header-bottom img {
-    width: 100%;
-}
-
 /* 
 main top 
 */
@@ -168,7 +195,7 @@ main top
 
 .title-main-top {
     text-align: left;
-    margin-top: 30px;
+    padding-top: 50px;
 }
 
 .radio-main-top {
@@ -208,6 +235,7 @@ main top
     padding: 5px 10px;
     color: white;
     font-size: 8pt;
+    border: none;
 }
 
 .hr-main {
@@ -632,8 +660,8 @@ prova gratuita
     margin: 15px;
     color: black;
     position: relative;
-    top: 20px;
-    right: 150px;
+    top: 30px;
+    right: 100px;
     
 }
 
@@ -647,9 +675,7 @@ prova gratuita
     height: 400px;
     
 }
-.domande{
-    padding: 100px;
-}
+
 
 .flex-domande {
     display: flex;
@@ -687,7 +713,6 @@ footer{
 
 .col-1-5 {
     width: calc(100% / 5);
-    margin: 0 10px;
     background-color: black;
     min-height: 200px;
     
